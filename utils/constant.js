@@ -1,9 +1,9 @@
 const { env } = require('./env.js')
 const UPLOAD_PATH = env === 'dev' ? 'D:/eavan/upload/admin-upload-ebook' : '/root/upload/admin-upload-ebook'
 
-const OLD_UPLOAD_URL = 'dev' ? 'https://book.eavan.site/book/res/img' : 'https://www.eavan.site/book/res/img'
+const OLD_UPLOAD_URL = 'dev' ? 'http://localhost/book/res/img' : 'http://94.191.66.15/book/res/img'
 
-const UPLOAD_URL = 'dev' ? 'https://book.eavan.site/admin-upload-ebook' : 'https://www.eavan.site/admin-upload-ebook'
+const UPLOAD_URL = 'dev' ? 'http://localhost/admin-upload-ebook' : 'http://94.191.66.15/admin-upload-ebook'
 
 module.exports = {
   CODE_ERROR: -1,
