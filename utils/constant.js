@@ -1,6 +1,6 @@
 const { env } = require('./env.js')
 
-const UPLOAD_PATH = env === 'dev' ? 'D:/eavan/upload/admin-upload-ebook' : '/root/upload/admin-upload-ebook'
+const UPLOAD_PATH = env === 'dev' ? 'D:/eavan/upload/admin-upload-ebook' : '/root/nginx/upload/admin-upload-ebook'
 
 const OLD_UPLOAD_URL = env === 'dev' ? 'http://localhost/book/res/img' : 'http://94.191.66.15/book/res/img'
 
